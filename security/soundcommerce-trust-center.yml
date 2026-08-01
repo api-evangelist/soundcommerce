@@ -1,0 +1,29 @@
+generated: '2026-07-21'
+method: searched
+source: https://reactordata.com/security
+url: https://reactordata.com/security
+summary: >-
+  Reactor (SoundCommerce) publishes a Security & Compliance page describing a
+  SOC 2 Type II program, warehouse-native architecture (customer owns the
+  storage; Reactor is the pipeline and does not retain customer data),
+  encryption in transit and at rest, least-privilege role-based access, and
+  full immutable audit + lineage across every pipeline. The SOC 2 Type II
+  report is available to prospective customers' security teams under NDA.
+certifications:
+- SOC 2 Type II
+controls:
+- least-privilege role-based access controls
+- encryption in transit (TLS) and at rest
+- no data hoarding (modeled tables land in the customer's own warehouse)
+- continuous monitoring for anomalies and incidents
+- immutable raw-data logging with full lineage and audit trail
+contacts:
+  security: security@reactordata.com
+  vendor_reviews: sales@reactordata.com
+evidence:
+- source: https://reactordata.com/security
+  keywords:
+  - soc 2 type ii
+  - encryption in transit and at rest
+  - audit & lineage
+  - least-privilege

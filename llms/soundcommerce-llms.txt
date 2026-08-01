@@ -1,0 +1,57 @@
+# Reactor
+
+> Reactor is the intelligent data platform. It preserves your raw history, resolves shared meaning across every source, and ships trusted data products to your warehouse — no army of engineers, no months of pipeline building. Reactor was acquired by Stelao in 2026 and is now operated by the Stelao team.
+
+## What Reactor does
+
+- Connects to 100+ commerce, marketing, ads, support, and fulfillment systems plus modern data warehouses (Snowflake, BigQuery, Databricks, AWS, Apache Iceberg) and AI vector stores (Pinecone, Weaviate, Chroma, Qdrant, Milvus, pgvector).
+- Preserves every raw record immutably from day one, so historical data can be remapped and reprocessed for new use cases without re-ingesting from source ("data replay").
+- Resolves identity across messy sources — define your shared entities once, and Reactor applies those definitions at ingest so the same customer, order, or product looks identical everywhere.
+- Ships versioned, governed data products directly to your warehouse — you own the data and the storage.
+- Exposes those data products to Claude and other MCP-compatible AI agents via the Reactor MCP connector, so assistants can query versioned, lineage-tracked data instead of guessing across raw source systems.
+- Includes Electron AI, an agentic teammate that writes mappings, suggests joins, and tags data automatically.
+
+## Who Reactor is for
+
+- Data teams at modern brands who need governed data products fast — not just raw rows piped into a warehouse.
+- Analytics, AI, and activation teams that want to skip months of pipeline building and start delivering value in week one.
+- Engineering leaders looking to consolidate Fivetran + Matillion + downstream modeling tools into a single low-code platform.
+
+## Key differentiators
+
+- Preserves raw history: every record logged immutably, so you can remap and replay data for new use cases without ever re-ingesting from source. Most pipeline tools structurally cannot do this.
+- Resolves identity at ingest: define shared entities once, Reactor applies them across every source as data lands. Fivetran and Matillion stop at moving raw data.
+- Ships data products, not raw tables: versioned, governed outputs with lineage tracking that downstream analytics, AI, and activation can trust.
+- Trust layer for AI agents: the Reactor MCP connector gives Claude and other MCP-compatible agents safe, structured, lineage-aware access to governed data products. The agent is the interface; Reactor is the trustworthy data substrate the agent reasons on.
+- Low-code, analyst-friendly interface — drag and drop with Excel-like expressions.
+- Hours to first data product, not months of pipeline building.
+- Warehouse-native: data lands in Snowflake, BigQuery, Databricks, AWS, or Iceberg. Reactor is the pipeline, not another silo.
+
+## Documentation
+
+- [Platform overview](https://reactordata.com/platform/reactor)
+- [Electron AI](https://reactordata.com/platform/electronai)
+- [Pricing](https://reactordata.com/pricing)
+- [Integrations directory](https://reactordata.com/integrations)
+- [Why Reactor vs. Fivetran](https://reactordata.com/why-reactor/reactor-vs-fivetran)
+- [Why Reactor vs. Matillion](https://reactordata.com/why-reactor/reactor-vs-matillion)
+- [Reactor for Snowflake](https://reactordata.com/solutions/reactor-for-snowflake)
+- [Reactor for BigQuery](https://reactordata.com/solutions/reactor-for-google-bigquery)
+- [Reactor for Databricks](https://reactordata.com/solutions/reactor-for-databricks)
+- [Reactor for AI — the Claude × Reactor MCP connector](https://reactordata.com/solutions/reactor-for-ai)
+- [Reactor for Iceberg](https://reactordata.com/solutions/reactor-for-iceberg)
+
+## Resources
+
+- [Resource library](https://reactordata.com/resources-library) — articles, technical guides, press releases.
+- [Success stories](https://reactordata.com/resources-library/success-stories) — how brands like Balsam Brands, Hearst, PacSun, Mountain House, and Eberjey put Reactor to work.
+- [Knowledge base](https://reactordata.com/docs) — product documentation.
+
+## Company
+
+- [About Reactor](https://reactordata.com/about-us) — founded 2023, born inside SoundCommerce, acquired by Stelao in 2026.
+- [Contact](https://reactordata.com/contact) — Reactor is currently opening access in waves via a waitlist.
+
+## Sitemap
+
+The full sitemap is available at https://reactordata.com/sitemap.xml.

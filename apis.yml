@@ -1,8 +1,13 @@
 aid: soundcommerce
 name: SoundCommerce
-description: 'SoundCommerce is a company surfaced as a portfolio company of dcm-ventures and added to
-  the API Evangelist network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'SoundCommerce is the retail-data company whose platform is now Reactor (reactordata.com),
+  an intelligent data platform for modern commerce brands. Reactor connects 100+ commerce, marketing,
+  ads, support, and fulfillment systems to cloud warehouses (Snowflake, BigQuery, Databricks, AWS,
+  Apache Iceberg) and AI vector stores, preserving every raw record immutably for replay, resolving
+  shared entity identity at ingest, and shipping versioned, governed data products directly into the
+  customer''s own warehouse. It exposes those governed data products to Claude and other MCP-compatible
+  AI agents through the Reactor MCP connector, and includes Electron AI, an agentic teammate that
+  writes mappings and suggests joins. Founded 2023 out of SoundCommerce; acquired by Stelao in 2026.'
 url: https://raw.githubusercontent.com/api-evangelist/soundcommerce/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +15,39 @@ x-backed-by:
 - dcm-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-rebranded-to: Reactor (reactordata.com)
+x-acquired-by: Stelao (2026)
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 7
+  pass: local-v1
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://reactordata.com/logo/reactor_black.svg
 tags:
 - Company
 - Enterprise
+- Data
+- Data Platform
+- ETL
+- Data Warehouse
+- Retail
+- Commerce
+- AI Agents
+- MCP
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +56,42 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://soundcommerce.com/
+  url: https://reactordata.com/
+- type: DeveloperPortal
+  url: https://reactordata.com/developers
+- type: Documentation
+  url: https://reactordata.com/docs
+- type: Pricing
+  url: https://reactordata.com/pricing
+- type: Integrations
+  url: https://reactordata.com/integrations
+- type: Blog
+  url: https://reactordata.com/resources-library/articles
+- type: Support
+  url: https://reactordata.com/contact
+- type: SignUp
+  url: https://reactordata.com/contact
+- type: TermsOfService
+  url: https://reactordata.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://reactordata.com/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/soundcommerce
+- type: ChangeLog
+  url: https://reactordata.com/docs/release-notes
+- type: LLMsTxt
+  url: llms/soundcommerce-llms.txt
+- type: MCPServer
+  url: mcp/soundcommerce-mcp.yml
+- type: TrustCenter
+  url: security/soundcommerce-trust-center.yml
+- type: Compliance
+  url: security/soundcommerce-trust-center.yml
+- type: Security
+  url: security/soundcommerce-vulnerability-disclosure.yml
+- type: VulnerabilityDisclosure
+  url: security/soundcommerce-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/soundcommerce-domain-security.yml
+- type: Conformance
+  url: conformance/soundcommerce-conformance.yml
