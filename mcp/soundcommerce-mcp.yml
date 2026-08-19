@@ -2,16 +2,13 @@ generated: '2026-07-21'
 method: searched
 status: published
 source: https://reactordata.com/solutions/reactor-for-ai
-summary: >-
-  Reactor (SoundCommerce) publishes the "Reactor MCP connector", a Model Context
-  Protocol surface that exposes the customer's versioned, lineage-tracked,
-  governed data products to Claude and other MCP-compatible AI agents. It is
-  positioned as the trust layer beneath Claude: the agent is the natural-language
-  interface and Reactor is the governed data substrate the agent queries instead
-  of guessing across raw source systems. Answers come back with source systems
-  and freshness cited. Connection details (endpoint URL, transport, auth) are
-  provisioned per-tenant against the customer's Reactor workspace and are not
-  published on the public marketing surface.
+summary: 'Reactor (SoundCommerce) publishes the "Reactor MCP connector", a Model Context Protocol surface
+  that exposes the customer''s versioned, lineage-tracked, governed data products to Claude and other
+  MCP-compatible AI agents. It is positioned as the trust layer beneath Claude: the agent is the natural-language
+  interface and Reactor is the governed data substrate the agent queries instead of guessing across raw
+  source systems. Answers come back with source systems and freshness cited. Connection details (endpoint
+  URL, transport, auth) are provisioned per-tenant against the customer''s Reactor workspace and are not
+  published on the public marketing surface.'
 server:
   name: reactor
   vendor: Reactor (SoundCommerce / Stelao)
@@ -22,3 +19,8 @@ tools: []
 docs:
 - https://reactordata.com/solutions/reactor-for-ai
 - https://reactordata.com/llms.txt
+deployment:
+  mode: unclear
+  verified: searched
+  checked: '2026-08-12'
+  source: catalog MCP census
